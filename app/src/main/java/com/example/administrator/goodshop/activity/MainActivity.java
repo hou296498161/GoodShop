@@ -77,6 +77,7 @@ public class MainActivity extends Basectivity {
         WeddingItem = new BottomNavigationItem(R.drawable.wedding, R.string.wedding);
 
         messageItem = new BottomNavigationItem(R.drawable.message, R.string.message);
+
         shopCarItem = new BottomNavigationItem(R.drawable.shop_car, R.string.shop_car);
         myGoodShopItem = new BottomNavigationItem(R.drawable.my_good_shop, R.string.my_good_shop);
 
