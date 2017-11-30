@@ -7,4 +7,10 @@
     <!--mianActivity-->
     <string name="no_network">没有网络连接</string>
     <string name="again_quite">再按一次退出键退出</string>
+    <string name="head_pager">首页</string>
+    <string name="wedding">微淘</string>
+    <string name="message">消息</string>
+    <string name="shop_car">购物车</string>
+    <string name="my_good_shop">我的欢乐购</string>
+
 </resources>

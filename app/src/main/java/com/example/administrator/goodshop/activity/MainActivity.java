@@ -72,13 +72,13 @@ public class MainActivity extends Basectivity {
         main_activity_bottom_navigation.setInActiveColor(R.color.unSelect);//未选中时的颜色
         main_activity_bottom_navigation.setActiveColor(R.color.goodShop);//选中时的颜色
 
-        headPagerItem = new BottomNavigationItem(R.drawable.headerselected, "首页");
+        headPagerItem = new BottomNavigationItem(R.drawable.headerselected,R.string.head_pager);
 
-        WeddingItem = new BottomNavigationItem(R.drawable.wedding, "微淘");
+        WeddingItem = new BottomNavigationItem(R.drawable.wedding, R.string.wedding);
 
-        messageItem = new BottomNavigationItem(R.drawable.message, "消息");
-        shopCarItem = new BottomNavigationItem(R.drawable.shop_car, "购物车");
-        myGoodShopItem = new BottomNavigationItem(R.drawable.my_good_shop, "我的欢乐");
+        messageItem = new BottomNavigationItem(R.drawable.message, R.string.message);
+        shopCarItem = new BottomNavigationItem(R.drawable.shop_car, R.string.shop_car);
+        myGoodShopItem = new BottomNavigationItem(R.drawable.my_good_shop, R.string.my_good_shop);
 
         main_activity_bottom_navigation.addItem(headPagerItem).addItem(WeddingItem).addItem(messageItem).addItem(shopCarItem).addItem(myGoodShopItem);
         main_activity_bottom_navigation.initialise();
